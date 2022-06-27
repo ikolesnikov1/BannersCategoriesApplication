@@ -4,7 +4,7 @@
 2. Download and run MYSQL server, then create a database
 3. Go to "src/main/resources" folder, open "application.properties" file and change name of database and port in first line
 4. Change user and password in next two lines of "application.properties" file
-5. In the root folder run "mvn spring-boot:run" command to launch backend part of application or just press "Shift+F10" in IntellijIDEA
+5. In the root folder run "mvn spring-boot:run" command to launch backend part of application
 6. Go to "frontend" folder and run "npm start" command to launch frontend part of application
 7. Now you can open "localhost:3000" in your browser to use the app, but you must login at "localhost:8080" using this credentials: <br /> username=root <br /> password=root
 8. Also you can use Postman or something like this to get a banner text at "localhost:8080/bid?category={yourcategory}" <br /> (e.g. localhost:8080/bid?category=sport)
